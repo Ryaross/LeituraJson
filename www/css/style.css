@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+
+}
+
+.productBox{
+    height: 50vh;
+    width: 50%;
+    color: #000;
+    background: #fff;
+    border: 1px solid gray;
+}
+
+.imgP{
+    height: 30vh;
+    margin-top: 40px;
+}
+
+.productBox h1{
+    font-size: 15px;
+}
+
+.productBox h3{
+    font-size: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background: #2673dd;
+}
+
+.boxinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 40%;
+    border: none;
+    outline: none;
+    text-align: center;
+    background: #fff;
+}
+
+.searchBtn{
+    width: 10%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+}
+
+.HelpLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2673dd;
+}
+
+img{
+  height: 150px;
+  width: 100%;
+}
+
+.icon{
+    height: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    font-size: 25px;
+}
+
+.org{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.org div{
+    margin: 15px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
